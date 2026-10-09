@@ -29,4 +29,12 @@ De cada **casa** conserva un código, su nombre, su lema y el nombre de su asent
 | PERSONAJE | Los personajes que pertencen a una casa | (0,N) |
 | CASA | A cuantas casas puede pertenecer un personaje | (1,1) |
 
-### 
+### Modelo completo E/R
+
+
+
+### Los atributos y los identificadores
+| Entidad | Atributos |
+|---|---|
+|Personaje| Código, nombre, fecha de nacimiento |
+|Casa| Código, nombre, lema, nombre de asentamiento |
