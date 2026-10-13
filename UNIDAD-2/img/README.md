@@ -35,3 +35,11 @@ Carpeta para imagenes de las actividades
 ### Arcane (2)
 
 <img width="322" height="172" alt="Arcane (2) drawio" src="https://github.com/user-attachments/assets/d61ae1b5-ba51-4b41-bbab-26aeee3f2d7a" />
+
+### Elden Ring 
+
+<img width="662" height="173" alt="Elden Ring  drawio" src="https://github.com/user-attachments/assets/79917083-c0e4-46e5-9dc8-bdc26d694f2b" />
+
+### Elden Ring (2)
+
+<img width="588" height="60" alt="Elden Ring (2) drawio" src="https://github.com/user-attachments/assets/072d335c-65c4-46a6-9d2a-2346324184eb" />
