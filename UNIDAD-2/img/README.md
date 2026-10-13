@@ -6,7 +6,7 @@ Carpeta para imagenes de las actividades
 <img width="482" height="77" alt="Juego de Tronos (2) drawio" src="https://github.com/user-attachments/assets/d953e584-e4f0-4cc7-ab74-ec4cbc932171" />
 
 ### Pokemon
-<img width="601" height="302" alt="Pokemon drawio" src="https://github.com/user-attachments/assets/8bbd0b9e-6739-4775-b9fa-463ead83f8fd" />
+<img width="601" height="341" alt="Pokemon drawio (2)" src="https://github.com/user-attachments/assets/83ef2f17-3e4b-47c7-9908-1411db49e1fa" />
 
 ### Pokemon (2)
 
