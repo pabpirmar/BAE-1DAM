@@ -150,3 +150,34 @@ De cada **mundo** guarda un código, un nombre y su fecha de creación.  De cada
 |MUNDO| Código, nombre, fecha_de_creación|
 |CONSTRUCCIÓN| Número, nombre, fecha_de_inicio|
 
+## 5. Fortnite: escuadrones y partidas
+
+### Posbles entidades y relaciones
+
+Una aplicación de Fortnite registra **jugadores** mediante un código, un nombre de usuario y su fecha de alta. Un **jugador** puede _pertenecer_ a un escuadrón como máximo, y un **escuadrón** puede tener varios jugadores. De cada **escuadrón** se guarda un código y un nombre. La aplicación registra **partidas** mediante un código, fecha, hora y modo de juego. De la _participación_ de cada jugador en cada partida se almacena su posición final y el número de eliminaciones.
+
+**-Entidades:** JUGADOR, PARTIDA, ESCUADRÓN
+
+**-Relaciones:** participa_en, pertenece_a
+
+### Frases que describen el problema
+
+| Relación | Lectura directa | Lectura inversa |
+|---|---|---|
+|participa_en| Cuántos jugadores participan en una partida | En cuántas partidas participa un jugador |
+|pertenece_a| Cuántos jugadores pertencen a un escuadrón | A cuántos escuadrones pertenece un jugador |
+
+### Modelos de la frase
+<img width="422" height="262" alt="Fortnite (2) drawio" src="https://github.com/user-attachments/assets/1dc518c9-6e1a-4cb8-8cf3-ca42abb51b8a" />
+
+### Estudio de cardinalidad
+
+| Partimos de... | Contamos... | Mínimo y máximo |
+|---|---|---|
+|JUGADOR| Cuántos jugadores participan en una partida | (1,N) |
+|PARTIDA| En cuantas partidas puede participar un jugador | (1,1) |
+|JUGADOR|Cuántos jugadores pertenecen a un escuadrón | (1,N) |
+|ESCUADRÓN| En cuántos escuadrones puede pertenecer un jugador| (1,1) |
+
+### Modelo completo E/R
+<img width="662" height="392" alt="Fortnite drawio" src="https://github.com/user-attachments/assets/e18256d8-32bc-4d19-b4ea-38e7894e8287" />
