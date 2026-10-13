@@ -19,3 +19,11 @@ Carpeta para imagenes de las actividades
 ### Breaking Bad (2)
 
 <img width="477" height="72" alt="Breaking Bad (2) drawio" src="https://github.com/user-attachments/assets/9764ed03-fdd7-41b4-ae90-bef78c731f47" />
+
+### Fortnite
+
+<img width="662" height="392" alt="Fortnite drawio" src="https://github.com/user-attachments/assets/55bd8198-93b8-48c4-9672-c22969799126" />
+
+### Fortnite (2)
+
+<img width="422" height="262" alt="Fortnite (2) drawio" src="https://github.com/user-attachments/assets/1dc518c9-6e1a-4cb8-8cf3-ca42abb51b8a" />
