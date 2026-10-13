@@ -81,6 +81,7 @@ De cada **entrenador** guarda un código, un nombre y una región de origen. Tam
 
 ### Posibles entidades y relaciones
 
+ De cada **personaje** guarda un código, un nombre y una ocupación. También registra los **episodios** mediante un código único, junto con su título, temporada, número de episodio y duración en minutos. La guía anota, para cada _aparición_ concreta, el tiempo aproximado en pantalla y si el personaje tiene un papel principal o secundario en ese episodio.
  
 **-Entidades:** PERSONAJE, EPISODIOS
 
@@ -110,3 +111,6 @@ De cada **entrenador** guarda un código, un nombre y una región de origen. Tam
 |---|---|
 |PERSONAJE| Código, nombre, ocupación|
 |EPISODIO| Código, título, temporada, número_de_episodio, duración_en_minutos|
+
+### 4. Minecraft: mundos y construcciones
+
