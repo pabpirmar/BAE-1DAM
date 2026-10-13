@@ -43,3 +43,11 @@ Carpeta para imagenes de las actividades
 ### Elden Ring (2)
 
 <img width="588" height="60" alt="Elden Ring (2) drawio" src="https://github.com/user-attachments/assets/072d335c-65c4-46a6-9d2a-2346324184eb" />
+
+### Valorant
+
+<img width="462" height="252" alt="Valorant drawio" src="https://github.com/user-attachments/assets/91eec19f-5f49-4679-bc92-a68c7348c7a2" />
+
+### Valorant (2)
+
+<img width="352" height="144" alt="Valorant (2) drawio" src="https://github.com/user-attachments/assets/1785910f-fd3f-4d55-b7ce-90958e62d7cd" />
