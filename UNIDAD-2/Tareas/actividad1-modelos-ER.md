@@ -62,13 +62,13 @@ De cada **entrenador** guarda un código, un nombre y una región de origen. Tam
 
 | Partimos de... | Contamos... | Mínimo y máximo |
 |---|---|---|
-|EJEMPLAR| Cuantos ejemplares pueden corresponder a una especie| (0,N) |
+|EJEMPLAR| Cuantos ejemplares pueden corresponder a una especie| (1,N) |
 |ESPECIE| A cuantas especies puede corresponder un ejemplar| (1,1) |
 |EJEMPLAR| Cuantos ejemplares pertenecen a un entrenador| (0,N) |
 |ENTRENADOR| A cuantos entrenadores puede corresponder un ejemplar| (1,1) |
 
 ### Modelo completo E/R
-<img width="601" height="341" alt="Pokemon drawio (2)" src="https://github.com/user-attachments/assets/83ef2f17-3e4b-47c7-9908-1411db49e1fa" />
+<img width="601" height="341" alt="Pokemon drawio (3)" src="https://github.com/user-attachments/assets/798934ab-c53e-4fc4-8053-ddc6ec39d032" />
 
 ### Los atributos y los identificadores
 | Entidad | Atributos |
@@ -76,3 +76,37 @@ De cada **entrenador** guarda un código, un nombre y una región de origen. Tam
 |ENTRENADOR| Código, Nombre, Región_de_origen |
 |EJEMPLAR| Código, Apodo_opcional, Nivel_opcional, Fecha_de_captura |
 |ESPECIE| Tipo_principal, Número_de_Pokédex, Nombre |
+
+## 3. Breaking Bad: personajes y episodios
+
+### Posibles entidades y relaciones
+
+ 
+**-Entidades:** PERSONAJE, EPISODIOS
+
+**Relaciones:** aparece_en
+
+### Frases que describen el problema
+
+| Relación | Lectura directa | Lectura inversa |
+|---|---|---|
+|aparece_en| Cuantos personajes aparecen en un episodio| En cuantos episodios aparece un personaje|
+
+### Modelos de la frase
+<img width="477" height="72" alt="Breaking Bad (2) drawio" src="https://github.com/user-attachments/assets/9764ed03-fdd7-41b4-ae90-bef78c731f47" />
+
+### Estudio de cardinalidad
+
+| Partimos de... | Contamos... | Mínimo y máximo |
+|---|---|---|
+|PERSONAJE| Cuantos personajes aparecen en un episodio| (1,N)|
+|EPISODIO| En cuantos episodios aparece un personaje| (1,N)|
+
+### Modelo completo E/R
+<img width="662" height="242" alt="Breaking Bad drawio" src="https://github.com/user-attachments/assets/25b7236c-5db7-4e83-b3ae-f0ab08d07062" />
+
+### Los atributos y los identificadores
+| Entidad | Atributos |
+|---|---|
+|PERSONAJE| Código, nombre, ocupación|
+|EPISODIO| Código, título, temporada, número_de_episodio, duración_en_minutos|
