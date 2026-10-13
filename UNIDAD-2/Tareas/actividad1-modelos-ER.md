@@ -114,3 +114,39 @@ De cada **entrenador** guarda un código, un nombre y una región de origen. Tam
 
 ### 4. Minecraft: mundos y construcciones
 
+De cada **mundo** guarda un código, un nombre y su fecha de creación.  De cada **construcción** se guarda su número, nombre y fecha de inicio. El servidor registra además **jugadores** mediante un código y un nombre de usuario. De cada _colaboración_ se guarda la fecha en que comenzó.  
+
+**-Entidades:** MUNDO, CONSTRUCCIÓN, JUGADORES
+
+**Relaciones:** colaboran_en
+
+### Frases que describen el problema
+
+| Relación | Lectura directa | Lectura inversa |
+|---|---|---|
+|colaboran_en| Los jugadores que colaboran en un mundo | En cuantos mundos colaboran los jugadores |
+|colaboran_en| Los jugadores que colaboran en una construcción | En cuantas construcciones colaboran los jugadores |
+
+### Modelos de la frase
+
+<img width="477" height="72" alt="Breaking Bad (2) drawio" src="https://github.com/user-attachments/assets/9764ed03-fdd7-41b4-ae90-bef78c731f47" />
+
+### Estudio de cardinalidad
+
+| Partimos de... | Contamos... | Mínimo y máximo |
+|---|---|---|
+|JUGADORES| Los jugadores que colaboran en un mundo | (1,N) |
+|MUNDO| Los mundos en los que colaboran los jugadores | (1,N) |
+|JUGADORES| Los jugadores que colaboran en una construcción | (0,N) |
+|CONSTRUCCIÓN| Las construcciones en las que colaboran los jugadores | (0,N) |
+
+### Modelo completo E/R
+<img width="662" height="242" alt="Breaking Bad drawio" src="https://github.com/user-attachments/assets/25b7236c-5db7-4e83-b3ae-f0ab08d07062" />
+
+### Los atributos y los identificadores
+| Entidad | Atributos |
+|---|---|
+|JUGADORES| Nombre_de_usuario, código|
+|MUNDO| Código, nombre, fecha_de_creación|
+|CONSTRUCCIÓN| Número, nombre, fecha_de_inicio|
+
