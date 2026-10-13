@@ -27,3 +27,11 @@ Carpeta para imagenes de las actividades
 ### Fortnite (2)
 
 <img width="422" height="262" alt="Fortnite (2) drawio" src="https://github.com/user-attachments/assets/1dc518c9-6e1a-4cb8-8cf3-ca42abb51b8a" />
+
+### Arcane
+
+<img width="791" height="271" alt="Arcane drawio" src="https://github.com/user-attachments/assets/f714408b-950a-481f-a582-fcc90d7fbb1e" />
+
+### Arcane (2)
+
+<img width="322" height="172" alt="Arcane (2) drawio" src="https://github.com/user-attachments/assets/d61ae1b5-ba51-4b41-bbab-26aeee3f2d7a" />
