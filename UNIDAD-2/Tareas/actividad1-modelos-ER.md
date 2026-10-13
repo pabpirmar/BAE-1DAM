@@ -18,9 +18,7 @@ De cada **casa** conserva un código, su nombre, su lema y el nombre de su asent
 
 ### Modelos de la frase
 
-| Modelo parcial | Primera entidad | Relación | Segunda entidad |
-|---|---|---|---|
-|Frase 1 | Casa | pertenece_a | Personaje |
+<img width="482" height="77" alt="Juego de Tronos (2) drawio" src="https://github.com/user-attachments/assets/d953e584-e4f0-4cc7-ab74-ec4cbc932171" />
 
 ### Estudio de cardinalidad
 
@@ -31,7 +29,7 @@ De cada **casa** conserva un código, su nombre, su lema y el nombre de su asent
 
 ### Modelo completo E/R
 
-
+<img width="592" height="236" alt="Juego de Tronos drawio (2)" src="https://github.com/user-attachments/assets/4e9912f4-03bd-4183-9ba5-58eab21d5f79" />
 
 ### Los atributos y los identificadores
 | Entidad | Atributos |
