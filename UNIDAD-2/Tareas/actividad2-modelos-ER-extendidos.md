@@ -40,8 +40,7 @@ La Alianza Rebelde necesita organizar la información de los vehículos de su fl
 |VEHÍCULO| En cuántas misiones está asignado un vehículo | (0,1) |
 |MISIÓN| Cuántos vehículos se encuentran en una misión | (1,N) |
 
-### 6. Modelo completo E/R.
+### 6 y 7. Modelo completo E/R y colocar los atributos a cada entidad e interrelación.
 
 <img width="1212" height="692" alt="Stars Wars drawio" src="https://github.com/user-attachments/assets/6528d7c6-d7cb-4ecb-977c-51f2f538e9e6" />
 
-### 7.
