@@ -23,3 +23,9 @@
 - Editorial
 - Papel
 - Ebook
+
+## Tabla por cada entidad con los atributos
+
+En cada tabla he añadido los atributos correspondientes de cada uno
+
+<img width="821" height="639" alt="Ejercicio-1-Librería drawio(1)" src="https://github.com/user-attachments/assets/3b0b689d-8ec3-439d-b48e-3ead87aa8c5e" />
